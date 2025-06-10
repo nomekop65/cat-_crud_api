@@ -16,4 +16,6 @@ public interface CatRepository extends JpaRepository<Cat, Long> {
 
     @Query("SELECT c FROM Cat c WHERE c.color = ?1")
     List<Cat> getColor(String color);
+
+    
 }
