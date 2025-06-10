@@ -24,6 +24,9 @@ public class Cat {
     private String description;
 
     private String color;
+
+    private String imageUrl;
+
     public Cat() {
     }
 
@@ -75,4 +78,13 @@ public class Cat {
     public void setColor(String color) {
         this.color = color;
     }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
 }
